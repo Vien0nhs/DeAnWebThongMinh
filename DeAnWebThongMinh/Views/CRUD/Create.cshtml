@@ -1,6 +1,6 @@
 ﻿@model DeAnWebThongMinh.Models.ProductModel
 
-<!DOCTYPE html>
+@* <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,74 +21,8 @@
         </div>
     </div>
 
-    <div class="ftco-section contact-section">
-        <h1>Create</h1>
-
-        <h4>ProductModel</h4>
-        <hr />
-        <div class="row">
-            <div class="col-md-4">
-                <form asp-action="Create">
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <div class="form-group">
-                        <label asp-for="ProductName" class="control-label"></label>
-                        <input asp-for="ProductName" class="form-control" />
-                        <span asp-validation-for="ProductName" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="ProductType" class="control-label"></label>
-                        <input asp-for="ProductType" class="form-control" />
-                        <span asp-validation-for="ProductType" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="ProductPrice" class="control-label"></label>
-                        <input asp-for="ProductPrice" class="form-control" />
-                        <span asp-validation-for="ProductPrice" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Description" class="control-label"></label>
-                        <input asp-for="Description" class="form-control" />
-                        <span asp-validation-for="Description" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="ImageUrl" class="control-label"></label>
-                        <input asp-for="ImageUrl" class="form-control" />
-                        <span asp-validation-for="ImageUrl" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" value="Create" class="btn btn-primary" />
-                    </div>
-                </form>
-            </div>
-        </div>
-
-        <div>
-            <a asp-action="Index">Back to List</a>
-        </div>
-        <div class="container mt-5">
-            <div class="row block-9 justify-content-center">
-                <div class="col-md-8 ftco-animate">
-                    <form action="#" class="contact-form">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Nhập tên">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Giá">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mô tả"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" value="Lưu" class="btn btn-primary py-3 px-5">
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
- 
+    
+</body> *@
 <div class="ftco-section contact-section">
     <h1>Create</h1>
 

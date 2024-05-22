@@ -15,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\crud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\views\\crud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\crud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -30,29 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 236,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
-              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
-              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
-              "RelativeToolTip": "DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T13:38:19.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CRUDController.cs",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "RelativeToolTip": "DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T13:33:55.281Z"
+              "WhenOpened": "2024-05-22T13:33:55.281Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -1,15 +1,20 @@
 ﻿@model DeAnWebThongMinh.Models.ProductModel
+<<<<<<< HEAD
 @{
     Layout = "_Layout";
 }
 <!DOCTYPE html>
+=======
+
+@* <!DOCTYPE html>
+>>>>>>> b5f2e087dc9476a848695c677b493cd29b7b7d28
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tạo sản phẩm mới</title>
 </head>
 <body>
+<<<<<<< HEAD
 
     <section class="ftco-section contact-section">
         <h1 class="text-center">Edit Product</h1>
@@ -58,3 +63,86 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+=======
+    <div class="home-slider owl-carousel">
+        <div class="slider-item" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text justify-content-center align-items-center">
+                    <div class="col-md-7 col-sm-12 text-center ftco-animate">
+                        <h1 class="mb-3 mt-5 bread">Tạo sản phẩm mới</h1>
+                        <p class="breadcrumbs"><span class="mr-2"><a asp-controller="Home" asp-action="Index">Home</a></span> <span>Tạo sản phẩm mới</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body> *@
+<div class="ftco-section contact-section">
+    <h1>Create</h1>
+
+    <h4>ProductModel</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="ProductName" class="control-label"></label>
+                    <input asp-for="ProductName" class="form-control" />
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ProductType" class="control-label"></label>
+                    <input asp-for="ProductType" class="form-control" />
+                    <span asp-validation-for="ProductType" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ProductPrice" class="control-label"></label>
+                    <input asp-for="ProductPrice" class="form-control" />
+                    <span asp-validation-for="ProductPrice" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageUrl" class="control-label"></label>
+                    <input asp-for="ImageUrl" class="form-control" />
+                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+    <div class="container mt-5">
+        <div class="row block-9 justify-content-center">
+            <div class="col-md-8 ftco-animate">
+                <form action="#" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nhập tên">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Giá">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mô tả"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Lưu" class="btn btn-primary py-3 px-5">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+>>>>>>> b5f2e087dc9476a848695c677b493cd29b7b7d28

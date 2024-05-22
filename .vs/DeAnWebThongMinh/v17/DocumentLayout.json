@@ -3,8 +3,64 @@
   "WorkspaceRootPath": "E:\\DeAnWebThongMinh\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\migrations\\20240522103901_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\migrations\\20240522103901_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\controllers\\productdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\controllers\\productdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\views\\productdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\crud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\views\\crud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\crud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -58,151 +110,283 @@
       "DocumentGroups": [
         {
           "DockedWidth": 236,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "DeAnWebThongMinh\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T17:10:19.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "DeAnWebThongMinh\\Views\\_ViewStart.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T17:10:17.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "DeAnWebThongMinh\\Views\\_ViewImports.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T17:10:17.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "DeAnWebThongMinh\\Views\\Shared\\Error.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T17:10:12.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\appsettings.json",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\appsettings.json",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\appsettings.json",
+              "RelativeToolTip": "DeAnWebThongMinh\\appsettings.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T17:10:08.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240522103901_InitialCreate.cs",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Migrations\\20240522103901_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Migrations\\20240522103901_InitialCreate.cs",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Migrations\\20240522103901_InitialCreate.cs",
+              "RelativeToolTip": "DeAnWebThongMinh\\Migrations\\20240522103901_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:10:06.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Data\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Data\\ProductDbContext.cs",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Data\\ProductDbContext.cs",
+              "RelativeToolTip": "DeAnWebThongMinh\\Data\\ProductDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:10:03.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductDetailController.cs",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\ProductDetailController.cs",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Controllers\\ProductDetailController.cs",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\ProductDetailController.cs",
+              "RelativeToolTip": "DeAnWebThongMinh\\Controllers\\ProductDetailController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:10:02.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DeAnWebThongMinh\\Controllers\\HomeController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:10:00.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Controllers\\MenuController.cs",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "DeAnWebThongMinh\\Controllers\\MenuController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:10:00.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Controllers\\CheckoutController.cs",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "DeAnWebThongMinh\\Controllers\\CheckoutController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:09:59.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Controllers\\CartController.cs",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\CartController.cs",
+              "RelativeToolTip": "DeAnWebThongMinh\\Controllers\\CartController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:09:58.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Controllers\\ContactController.cs",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "DeAnWebThongMinh\\Controllers\\ContactController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:09:56.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\ProductDetail\\Index.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\ProductDetail\\Index.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\ProductDetail\\Index.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\ProductDetail\\Index.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T17:04:34.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T17:04:34.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Menu\\Index.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\Menu\\Index.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Menu\\Index.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\Menu\\Index.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T17:04:26.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T17:04:26.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\Home\\Privacy.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\Home\\Privacy.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T17:04:23.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T17:04:23.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\Home\\Index.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\Home\\Index.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T17:04:15.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T17:04:15.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Checkout\\Index.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\Checkout\\Index.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Checkout\\Index.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\Checkout\\Index.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T17:04:08.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T17:04:08.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Edit.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\CRUD\\Edit.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Edit.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\CRUD\\Edit.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T16:57:58.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T16:57:58.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Delete.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\CRUD\\Delete.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Delete.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\CRUD\\Delete.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T16:57:54.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T16:57:54.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T14:29:43.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T14:29:43.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "CRUDController.cs",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "RelativeToolTip": "DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T13:33:55.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T13:33:55.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\Shared\\_Layout.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T13:31:08.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T13:31:08.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Create.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\CRUD\\Create.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Create.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\CRUD\\Create.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T12:55:14.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T12:55:14.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Index.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\CRUD\\Index.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Index.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\CRUD\\Index.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T12:41:02.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T12:41:02.653Z"
             }
           ]
         }

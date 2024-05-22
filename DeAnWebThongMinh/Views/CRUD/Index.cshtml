@@ -1,0 +1,213 @@
+﻿@model IEnumerable<DeAnWebThongMinh.Models.ProductModel>
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<section class="home-slider owl-carousel">
+		<div class="slider-item" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row slider-text justify-content-center align-items-center">
+					<div class="col-md-7 col-sm-12 text-center ftco-animate">
+						<h1 class="mb-3 mt-5 bread">Trang CRUD</h1>
+						<p class="breadcrumbs"><span class="mr-2"><a asp-controller="Home" asp-action="Index">Home</a></span> <span>Tạo sản phẩm mới</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section">
+		<div class="container">
+			<h1>Danh sách các món hiện có</h1>
+
+			<p>
+				<a asp-action="Create">Create New</a>
+			</p>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>
+							@Html.DisplayNameFor(model => model.ImageUrl)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.ProductType)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.ProductName)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.ProductPrice)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Description)
+						</th>
+
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model)
+					{
+						<tr>
+							<td>
+								@if (!string.IsNullOrEmpty(item.ImageUrl))
+								{
+									<img src="@item.ImageUrl" alt="@item.ProductName" style="width: 100px; height: auto;" />
+								}
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.ProductType)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.ProductName)
+							</td>
+							<td class="icon-attach_money">
+								@Html.DisplayFor(modelItem => item.ProductPrice)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.Description)
+							</td>
+							
+							<td>
+								<a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
+								<a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
+								<a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+			<h3 class="mb-5 heading-pricing ftco-animate">Products Page</h3>
+			<div class="form-group">
+				<a asp-controller="CRUD" asp-action="Create"><input type="submit" value="Add a Product" class="btn btn-primary py-3 px-5"></a>
+			</div>
+			<br />
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="mb-5 heading-pricing ftco-animate">Thức uống (Vòng lặp và dữ liệu)</h3>
+					<div class="pricing-entry d-flex ftco-animate">
+						<div class="img" style="background-image: url(images/drink-5.jpg);"></div>
+						<div class="desc pl-3">
+							<div class="d-flex text align-items-center">
+								<h3><span class="ok"><a asp-controller="ProductDetail" asp-action="Index">Sea Trout</a></span></h3>
+								<style>
+									.ok:hover {
+										font-weight: bold;
+									}
+								</style>
+								<span class="price">$49.91</span>
+							</div>
+							<div class="d-block">
+								<p>A small river named Duden flows by their place and supplies</p>
+							</div>
+						</div>
+					</div>
+					<div class="pricing-entry d-flex ftco-animate">
+						<div class="img" style="background-image: url(images/drink-6.jpg);"></div>
+						<div class="desc pl-3">
+							<div class="d-flex text align-items-center">
+								<h3><span>Roasted Beef</span></h3>
+								<span class="price">$20.00</span>
+							</div>
+							<div class="d-block">
+								<p>A small river named Duden flows by their place and supplies</p>
+							</div>
+						</div>
+					</div>
+					<div class="pricing-entry d-flex ftco-animate">
+						<div class="img" style="background-image: url(images/drink-7.jpg);"></div>
+						<div class="desc pl-3">
+							<div class="d-flex text align-items-center">
+								<h3><span>Butter Fried Chicken</span></h3>
+								<span class="price">$20.00</span>
+							</div>
+							<div class="d-block">
+								<p>A small river named Duden flows by their place and supplies</p>
+							</div>
+						</div>
+					</div>
+					<div class="pricing-entry d-flex ftco-animate">
+						<div class="img" style="background-image: url(images/drink-8.jpg);"></div>
+						<div class="desc pl-3">
+							<div class="d-flex text align-items-center">
+								<h3><span>Chiken Filet</span></h3>
+								<span class="price">$20.00</span>
+							</div>
+							<div class="d-block">
+								<p>A small river named Duden flows by their place and supplies</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h3 class="mb-5 heading-pricing ftco-animate">Bánh ngọt (Vòng lặp và dữ liệu)</h3>
+					<div class="pricing-entry d-flex ftco-animate">
+						<div class="img" style="background-image: url(images/dessert-1.jpg);"></div>
+						<div class="desc pl-3">
+							<div class="d-flex text align-items-center">
+								<h3><span>Cornish - Mackerel</span></h3>
+								<span class="price">$20.00</span>
+							</div>
+							<div class="d-block">
+								<p>A small river named Duden flows by their place and supplies</p>
+							</div>
+						</div>
+					</div>
+					<div class="pricing-entry d-flex ftco-animate">
+						<div class="img" style="background-image: url(images/dessert-2.jpg);"></div>
+						<div class="desc pl-3">
+							<div class="d-flex text align-items-center">
+								<h3><span>Roasted Steak</span></h3>
+								<span class="price">$29.00</span>
+							</div>
+							<div class="d-block">
+								<p>A small river named Duden flows by their place and supplies</p>
+							</div>
+						</div>
+					</div>
+					<div class="pricing-entry d-flex ftco-animate">
+						<div class="img" style="background-image: url(images/dessert-3.jpg);"></div>
+						<div class="desc pl-3">
+							<div class="d-flex text align-items-center">
+								<h3><span>Seasonal Soup</span></h3>
+								<span class="price">$20.00</span>
+							</div>
+							<div class="d-block">
+								<p>A small river named Duden flows by their place and supplies</p>
+							</div>
+						</div>
+					</div>
+					<div class="pricing-entry d-flex ftco-animate">
+						<div class="img" style="background-image: url(images/dessert-4.jpg);"></div>
+						<div class="desc pl-3">
+							<div class="d-flex text align-items-center">
+								<h3><span>Chicken Curry</span></h3>
+								<span class="price">$20.00</span>
+							</div>
+							<div class="d-block">
+								<p>A small river named Duden flows by their place and supplies</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+

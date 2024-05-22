@@ -40,7 +40,7 @@ namespace DeAnWebThongMinh.Controllers
 
             return View(productModel);
         }
-
+        public bool Accept = true;
         // GET: CRUD/Create
         public IActionResult Create()
         {

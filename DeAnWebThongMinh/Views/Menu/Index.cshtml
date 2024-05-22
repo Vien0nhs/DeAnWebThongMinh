@@ -1,4 +1,5 @@
-﻿<section class="home-slider owl-carousel">
+﻿@model IEnumerable<DeAnWebThongMinh.Models.ProductModel>
+<section class="home-slider owl-carousel">
 
 	<div class="slider-item" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
@@ -89,114 +90,123 @@
 	<div class="container">
 		<h3 class="mb-5 heading-pricing ftco-animate">Bạn có thể đặt món và xem chi tiết món tại đây với menu chính của Team!</h3>
 
-		<div class="row">
-			<div class="col-md-6">
-				<h3 class="mb-5 heading-pricing ftco-animate">Thức uống (Vòng lặp và dữ liệu)</h3>
-				<div class="pricing-entry d-flex ftco-animate">
-					<div class="img" style="background-image: url(images/drink-5.jpg);"></div>
-					<div class="desc pl-3">
-						<div class="d-flex text align-items-center">
-							<h3><span class="ok"><a asp-controller="ProductDetail" asp-action="Index">Sea Trout</a></span></h3>
-							<style>
-								.ok:hover {
-									font-weight: bold;
-								}
-							</style>
-							<span class="price">$49.91</span>
-						</div>
-						<div class="d-block">
-							<p>A small river named Duden flows by their place and supplies</p>
-						</div>
-					</div>
+		@if (@Model != null){
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="mb-5 heading-pricing ftco-animate">Drinks</h3> <!-- Thay thế thành ProductType -->
+					@foreach (var item in Model)
+					{
+						@if (item.ProductType == "Drinks")
+						{
+							<div class="pricing-entry d-flex ftco-animate">
+								<div class="img" style="background-image: url(@item.ImageUrl" alt="@item.ProductName)">
+								</div>
+								<div class="desc pl-3">
+									<div class="d-flex text align-items-center">
+										<h3><span class="ok"><a asp-controller="ProductDetail" asp-action="Index">@item.ProductName</a></span></h3> <!-- Thay thế thành ProductName -->
+										<style>
+											.ok:hover {
+												font-weight: bold;
+											}
+										</style>
+										<span class="price">$@item.ProductPrice</span> <!-- Thay thế thành ProductPrice -->
+									</div>
+									<div class="d-block">
+										<p>@item.Description</p> <!-- Thay thế thành Description -->
+									</div>
+								</div>
+							</div>
+						}
+
+					}
 				</div>
-				<div class="pricing-entry d-flex ftco-animate">
-					<div class="img" style="background-image: url(images/drink-6.jpg);"></div>
-					<div class="desc pl-3">
-						<div class="d-flex text align-items-center">
-							<h3><span>Roasted Beef</span></h3>
-							<span class="price">$20.00</span>
-						</div>
-						<div class="d-block">
-							<p>A small river named Duden flows by their place and supplies</p>
-						</div>
-					</div>
-				</div>
-				<div class="pricing-entry d-flex ftco-animate">
-					<div class="img" style="background-image: url(images/drink-7.jpg);"></div>
-					<div class="desc pl-3">
-						<div class="d-flex text align-items-center">
-							<h3><span>Butter Fried Chicken</span></h3>
-							<span class="price">$20.00</span>
-						</div>
-						<div class="d-block">
-							<p>A small river named Duden flows by their place and supplies</p>
-						</div>
-					</div>
-				</div>
-				<div class="pricing-entry d-flex ftco-animate">
-					<div class="img" style="background-image: url(images/drink-8.jpg);"></div>
-					<div class="desc pl-3">
-						<div class="d-flex text align-items-center">
-							<h3><span>Chiken Filet</span></h3>
-							<span class="price">$20.00</span>
-						</div>
-						<div class="d-block">
-							<p>A small river named Duden flows by their place and supplies</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<h3 class="mb-5 heading-pricing ftco-animate">Bánh ngọt (Vòng lặp và dữ liệu)</h3>
-				<div class="pricing-entry d-flex ftco-animate">
-					<div class="img" style="background-image: url(images/dessert-1.jpg);"></div>
-					<div class="desc pl-3">
-						<div class="d-flex text align-items-center">
-							<h3><span>Cornish - Mackerel</span></h3>
-							<span class="price">$20.00</span>
-						</div>
-						<div class="d-block">
-							<p>A small river named Duden flows by their place and supplies</p>
-						</div>
-					</div>
-				</div>
-				<div class="pricing-entry d-flex ftco-animate">
-					<div class="img" style="background-image: url(images/dessert-2.jpg);"></div>
-					<div class="desc pl-3">
-						<div class="d-flex text align-items-center">
-							<h3><span>Roasted Steak</span></h3>
-							<span class="price">$29.00</span>
-						</div>
-						<div class="d-block">
-							<p>A small river named Duden flows by their place and supplies</p>
-						</div>
-					</div>
-				</div>
-				<div class="pricing-entry d-flex ftco-animate">
-					<div class="img" style="background-image: url(images/dessert-3.jpg);"></div>
-					<div class="desc pl-3">
-						<div class="d-flex text align-items-center">
-							<h3><span>Seasonal Soup</span></h3>
-							<span class="price">$20.00</span>
-						</div>
-						<div class="d-block">
-							<p>A small river named Duden flows by their place and supplies</p>
-						</div>
-					</div>
-				</div>
-				<div class="pricing-entry d-flex ftco-animate">
-					<div class="img" style="background-image: url(images/dessert-4.jpg);"></div>
-					<div class="desc pl-3">
-						<div class="d-flex text align-items-center">
-							<h3><span>Chicken Curry</span></h3>
-							<span class="price">$20.00</span>
-						</div>
-						<div class="d-block">
-							<p>A small river named Duden flows by their place and supplies</p>
-						</div>
-					</div>
+
+				<div class="col-md-6">
+					<h3 class="mb-5 heading-pricing ftco-animate">Cakes</h3> <!-- Thay thế thành ProductType -->
+					@foreach (var item in Model)
+					{
+						@if (item.ProductType == "Cakes")
+						{
+							<div class="pricing-entry d-flex ftco-animate">
+								<div class="img" style="background-image: url(@item.ImageUrl" alt="@item.ProductName)">
+								</div>
+								<div class="desc pl-3">
+									<div class="d-flex text align-items-center">
+										<h3><span class="ok"><a asp-controller="ProductDetail" asp-action="Index">@item.ProductName</a></span></h3> <!-- Thay thế thành ProductName -->
+										<style>
+											.ok:hover {
+												font-weight: bold;
+											}
+										</style>
+										<span class="price">$@item.ProductPrice</span> <!-- Thay thế thành ProductPrice -->
+									</div>
+									<div class="d-block">
+										<p>@item.Description</p> <!-- Thay thế thành Description -->
+									</div>
+								</div>
+							</div>
+						}
+					}
 				</div>
 			</div>
-		</div>
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="mb-5 heading-pricing ftco-animate">Drinks</h3> <!-- Thay thế thành ProductType -->
+					@foreach (var item in Model)
+					{
+						@if (item.ProductType == "Drinks")
+						{
+							<div class="pricing-entry d-flex ftco-animate">
+								<div class="img" style="background-image: url(@item.ImageUrl" alt="@item.ProductName)">
+								</div>
+								<div class="desc pl-3">
+									<div class="d-flex text align-items-center">
+										<h3><span class="ok"><a asp-controller="ProductDetail" asp-action="Index">@item.ProductName</a></span></h3> <!-- Thay thế thành ProductName -->
+										<style>
+											.ok:hover {
+												font-weight: bold;
+											}
+										</style>
+										<span class="price">$@item.ProductPrice</span> <!-- Thay thế thành ProductPrice -->
+									</div>
+									<div class="d-block">
+										<p>@item.Description</p> <!-- Thay thế thành Description -->
+									</div>
+								</div>
+							</div>
+						}
+
+					}
+				</div>
+
+				<div class="col-md-6">
+					<h3 class="mb-5 heading-pricing ftco-animate">Cakes</h3> <!-- Thay thế thành ProductType -->
+					@foreach (var item in Model)
+					{
+						@if (item.ProductType == "Cakes")
+						{
+							<div class="pricing-entry d-flex ftco-animate">
+								<div class="img" style="background-image: url(@item.ImageUrl" alt="@item.ProductName)">
+								</div>
+								<div class="desc pl-3">
+									<div class="d-flex text align-items-center">
+										<h3><span class="ok"><a asp-controller="ProductDetail" asp-action="Index">@item.ProductName</a></span></h3> <!-- Thay thế thành ProductName -->
+										<style>
+											.ok:hover {
+												font-weight: bold;
+											}
+										</style>
+										<span class="price">$@item.ProductPrice</span> <!-- Thay thế thành ProductPrice -->
+									</div>
+									<div class="d-block">
+										<p>@item.Description</p> <!-- Thay thế thành Description -->
+									</div>
+								</div>
+							</div>
+						}
+					}
+				</div>
+			</div>
+		}
 	</div>
 </section>

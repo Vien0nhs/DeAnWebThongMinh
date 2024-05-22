@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\views\\crud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\crud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|e:\\deanwebthongminh\\deanwebthongminh\\views\\crud\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C2ACA749-7067-435D-84F4-BDCE95CA5AC0}|DeAnWebThongMinh\\DeAnWebThongMinh.csproj|solutionrelative:deanwebthongminh\\views\\crud\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -26,19 +30,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 236,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
+              "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
+              "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
+              "RelativeToolTip": "DeAnWebThongMinh\\Views\\CRUD\\Details.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T14:29:43.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CRUDController.cs",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "RelativeToolTip": "DeAnWebThongMinh\\Controllers\\CRUDController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T13:33:55.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T13:33:55.281Z"
             },
             {
               "$type": "Document",
@@ -54,27 +69,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Create.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\CRUD\\Create.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Create.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\CRUD\\Create.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T12:55:14.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T12:55:14.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Index.cshtml",
               "RelativeDocumentMoniker": "DeAnWebThongMinh\\Views\\CRUD\\Index.cshtml",
               "ToolTip": "E:\\DeAnWebThongMinh\\DeAnWebThongMinh\\Views\\CRUD\\Index.cshtml",
               "RelativeToolTip": "DeAnWebThongMinh\\Views\\CRUD\\Index.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T12:41:02.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T12:41:02.653Z"
             }
           ]
         }

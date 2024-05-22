@@ -1,7 +1,4 @@
 ﻿@model DeAnWebThongMinh.Models.ProductModel
-@{
-    Layout = "_Layout";
-}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +7,22 @@
     <title>Tạo sản phẩm mới</title>
 </head>
 <body>
+    <section class="home-slider owl-carousel">
+        <div class="slider-item" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text justify-content-center align-items-center">
+                    <div class="col-md-7 col-sm-12 text-center ftco-animate">
+                        <h1 class="mb-3 mt-5 bread">Tạo sản phẩm mới</h1>
+                        <p class="breadcrumbs"><span class="mr-2"><a asp-controller="Home" asp-action="Index">Home</a></span> <span>Tạo sản phẩm mới</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="ftco-section contact-section">
-        <h1 class="text-center">Edit Product</h1>
+        <h1 class="text-center">Create a new Product</h1>
 
         <div class="container mt-5">
             <div class="row block-9 justify-content-center">

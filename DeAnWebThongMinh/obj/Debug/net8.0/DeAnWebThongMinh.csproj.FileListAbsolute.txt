@@ -250,3 +250,4 @@ C:\Users\nguye\source\repos\DeAnWebThongMinh\DeAnWebThongMinh\bin\Debug\net8.0\r
 C:\Users\nguye\source\repos\DeAnWebThongMinh\DeAnWebThongMinh\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\nguye\source\repos\DeAnWebThongMinh\DeAnWebThongMinh\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\nguye\source\repos\DeAnWebThongMinh\DeAnWebThongMinh\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\nguye\source\repos\DeAnWebThongMinh\DeAnWebThongMinh\obj\Debug\net8.0\DeAnWebThongMinh.sourcelink.json

@@ -38,16 +38,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Create/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Edit.cshtml]
@@ -68,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Menu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/ProductDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Shared/Error.cshtml]

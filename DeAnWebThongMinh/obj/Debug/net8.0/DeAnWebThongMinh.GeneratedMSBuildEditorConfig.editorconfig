@@ -17,75 +17,79 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DeAnWebThongMinh
 build_property.RootNamespace = DeAnWebThongMinh
-build_property.ProjectDir = C:\Users\nguye\source\repos\DeAnWebThongMinh\DeAnWebThongMinh\
+build_property.ProjectDir = E:\DeAnWebThongMinh\DeAnWebThongMinh\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nguye\source\repos\DeAnWebThongMinh\DeAnWebThongMinh
+build_property.MSBuildProjectDirectory = E:\DeAnWebThongMinh\DeAnWebThongMinh
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Cart/Index.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Checkout/Index.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/Checkout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Contact/Index.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Create.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Delete.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Details.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Edit.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Index.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Hello.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxIZWxsby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/CRUD/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Home/Index.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Home/Privacy.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Menu/Index.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/Menu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Shared/Error.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/_ViewImports.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/_ViewStart.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/source/repos/DeAnWebThongMinh/DeAnWebThongMinh/Views/Shared/_Layout.cshtml]
+[E:/DeAnWebThongMinh/DeAnWebThongMinh/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z411i0hgkw

@@ -1,0 +1,58 @@
+{
+    "greetings": {
+        "keywords": ["chào",
+         "hello",
+          "xin chào",
+           "hi",
+            "cậu"],
+        "response": ["Chào bạn! Tôi có thể giúp gì cho bạn hôm nay?",
+    "Xin chào! Bạn muốn tìm hiểu thông tin gì về cà phê hôm nay?"]
+    },
+    "ask_about":{
+        "keywords":["hôm nay bạn thế nào","bạn khỏe không","hôm nay thế nào"],
+        "response":["Hôm nay tôi khỏe, bạn có thắc mắc gì về web tôi không","Hôm nay tôi khỏe","Bạn có khỏe không"]
+    },
+    "asl_emotianl_sad":{
+      "keywords":["Bạn có buồn không","buồn","làm ai","bạn có buồn","khi"],
+      "response":["Tôi cũng không biết nữa","Tôi là AI nên người lập trình ra tôi phải cho tôi biết"]
+    },
+    "coffee": {
+        "keywords": ["cà phê",
+        "có",
+         "coffee",
+         "Tôi muốn hỏi một chút về cà phê",
+         "có thể cho tôi cà phê không",
+        "cho tôi cà phê"],
+        "response": ["Chúng tôi cung cấp nhiều loại cà phê từ cà phê đen đến cà phê sữa."]
+    },
+
+    "cakes": {
+        "keywords": ["cakes", "bánh", "bánh kem", "bánh ngọt"],
+        "response": ["Chúng tôi cung cấp nhiều loại bánh, từ bánh kem đến bánh ngọt."]
+    },
+
+    "open_hours": {
+        "keywords": ["giờ mở cửa", "mở cửa"],
+        "response": ["Chúng tôi mở cửa từ 7 giờ sáng đến 10 giờ tối hàng ngày."]
+    },
+
+    "address": {
+        "keywords": ["địa chỉ", "location"],
+        "response": ["Bạn có thể tìm thấy chúng tôi tại địa chỉ 123 Đường ABC, Quận 1, TP.HCM."]
+    },
+
+    "promotion": {
+        "keywords": ["khuyến mãi", "sale", "giảm giá"],
+        "response": ["Hiện tại chúng tôi đang có chương trình khuyến mãi giảm giá 20% cho tất cả các sản phẩm."]
+    },
+
+    "ordering": {
+        "keywords": ["đặt hàng", "order"],
+        "response": ["Bạn có thể đặt hàng trực tuyến trên website hoặc gọi vào số hotline của chúng tôi."]
+    },
+
+    "customer_support": {
+        "keywords": ["hỗ trợ khách hàng", "support"],
+        "response": ["Nếu bạn có bất kỳ câu hỏi hoặc vấn đề gì, xin vui lòng liên hệ với bộ phận hỗ trợ khách hàng của chúng tôi."]
+    }
+}

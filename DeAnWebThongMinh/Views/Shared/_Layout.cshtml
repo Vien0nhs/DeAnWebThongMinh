@@ -1,0 +1,181 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextAccessor
+@{
+    var username = httpContextAccessor.HttpContext?.Session.GetString("Username");
+    var userRole = httpContextAccessor.HttpContext?.Session.GetString("UserRole");
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Coffee Shop Serenity Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="~/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/animate.css" rel="stylesheet">
+    <link href="~/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="~/css/magnific-popup.css" rel="stylesheet">
+    <link href="~/css/aos.css" rel="stylesheet">
+    <link href="~/css/ionicons.min.css" rel="stylesheet">
+    <link href="~/css/bootstrap-datepicker.css" rel="stylesheet">
+    <link href="~/css/jquery.timepicker.css" rel="stylesheet">
+    <link href="~/css/flaticon.css" rel="stylesheet">
+    <link href="~/css/icomoon.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/css/aos.css">
+    <link rel="stylesheet" href="~/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="~/css/jquery.timepicker.css">
+    <link rel="stylesheet" href="~/css/flaticon.css">
+    <link rel="stylesheet" href="~/css/icomoon.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/chatBox/style.css"/> 
+</head>
+
+<body style="font-family: 'Roboto', sans-serif;">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">Nhóm 2 - Đề án</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a asp-controller="Home" asp-action="Index" class="nav-link">Trang Chủ</a></li>
+                    <li class="nav-item"><a asp-controller="Menu" asp-action="Index" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a asp-controller="Contact" asp-action="Index" class="nav-link">Liên Hệ</a></li>
+                    <li class="nav-item cart"><a asp-controller="Menu" asp-action="Cart" class="nav-link">
+                            <span class="icon icon-shopping_cart"></span></a>
+                    </li>
+                    <li class="nav-item"><a asp-controller="CRUD" asp-action="Index" class="nav-link">CRUD</a></li>
+
+                    @if (!string.IsNullOrEmpty(username))
+                    {
+                        <li class="nav-item"><a asp-controller="Account" asp-action="Index" class="nav-link">Hello, @username</a></li>
+                        <li class="nav-item"><a asp-controller="Account" asp-action="Logout" class="nav-link">Logout</a></li>
+                    }
+                    else
+                    {
+                        <li class="nav-item"><a asp-controller="Account" asp-action="Index" class="nav-link">Signin / Signup</a></li>
+
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    @RenderBody()
+    <div class="chatbox-container ">
+        <div class="chatbox" id="chatbox">
+            <div class="chatbox-header">
+                Chatbox AI
+                <button id="close-button">X</button>
+            </div>
+            <div class="chatbox-body" id="chatbox-body">
+                <div class="message bot-message">Xin chào! tôi có thể giúp gì cho bạn?</div>
+            </div>
+            <div class="chatbox-footer">
+                <input type="text" id="user-input" placeholder="Nhập tin nhắn...">
+                <button id="send-button">Gửi</button>
+                <div class="button-container">
+                    <button class="dialogue-button" data-message="Cà phê">Cà phê</button>
+                    <button class="dialogue-button" data-message="Bánh">Bánh</button>
+                    <button class="dialogue-button" data-message="support">Hỗ trợ</button>
+                </div>
+            </div>
+        </div>
+        <button id="chatbox-toggle" class="chatbox-toggle">Chat</button>
+    </div>
+    <script src="~/chatBox/script.js"></script>
+    <script src="~/chatBox/loadResponses.js"></script>
+</div>
+
+    <!-- KẾT THÚC phần điều hướng -->
+   
+    <footer class="ftco-footer ftco-section img">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Về Chúng Tôi</h2>
+                        <p>Nhóm các sinh viên chuyên ngành Công nghệ phần mềm tại Trường Đại học Yersin Đà Lạt</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Về câu hỏi</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon icon-map-marker"></span><span class="text">Khoa CNTT K19 - Đà Lạt - Lâm Đồng - Việt Nam</span></li>
+                                <li><a href="#"><span class="icon icon-phone"></span><span class="text">SDT</span></a></li>
+                                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">Team2@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <p>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    </p>
+                    <p>
+                        Mẫu này được tham khảo và phát triển bởi Team 2 - Đề án môn học CNTT K19
+                    </p>
+                    <p>
+                        Nguyễn Thanh Viễn - Võ Hoàng Việt - Tằng Sồng Cắm - K Văn Vương - Nguyễn Minh Đức
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- trình tải -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+
+
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.easing.1.3.js"></script>
+    <script src="~/js/jquery.waypoints.min.js"></script>
+    <script src="~/js/jquery.stellar.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/aos.js"></script>
+    <script src="~/js/jquery.animateNumber.min.js"></script>
+    <script src="~/js/bootstrap-datepicker.js"></script>
+    <script src="~/js/jquery.timepicker.min.js"></script>
+    <script src="~/js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&sensor=false"></script>
+    <script src="~/js/google-map.js"></script>
+    <script src="~/js/main.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="~/js/google-map.js"></script>
+    <script src="~/js/main.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

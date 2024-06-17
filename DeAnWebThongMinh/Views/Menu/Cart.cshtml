@@ -1,0 +1,73 @@
+﻿@model List<DeAnWebThongMinh.Models.CartItem>
+
+<section class="ftco-section ftco-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ftco-animate">
+                <div class="cart-list">
+                    <table class="table">
+                        <thead class="thead-primary">
+                            <tr class="text-center">
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>Sản phẩm</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+                                <th>Tổng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr class="text-center">
+                                    <td class="product-remove">
+                                        <form asp-controller="Menu" asp-action="RemoveFromCart" method="post">
+                                            <input type="hidden" name="id" value="@item.ProductId" />
+                                            <button type="submit" class="btn btn-link"><span class="icon-close"></span></button>
+                                        </form>
+                                    </td>
+                                    <td class="image-prod">
+                                        <div class="img">
+                                            <a href="@item.ImageUrl" class="image-popup"><img src="@item.ImageUrl" class="img-fluid" alt="@item.ImageUrl" style="width: 100px; height: 100px; border-radius:50%;"></a>
+                                        </div>
+                                    </td>
+                                    <td class="product-name">
+                                        <h3>@item.ProductName</h3>
+                                    </td>
+                                    <td class="price">@item.ProductPrice.ToString("C")</td>
+                                    <td class="quantity">
+                                        <div class="input-group mb-3">
+                                            <input type="text" name="quantity" class="quantity form-control input-number" value="@item.Quantity" min="1" max="100">
+                                        </div>
+                                    </td>
+                                    <td class="total">@((item.ProductPrice * item.Quantity).ToString("C"))</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col col-lg-3 col-md-6 mt-5 cart-wrap ftco-animate">
+                <div class="cart-total mb-3">
+                    <h3>Tổng đơn</h3>
+                    <p class="d-flex">
+                        <span>Tổng cộng</span>
+                        <span>@Model.Sum(item => item.ProductPrice * item.Quantity).ToString("C")</span>
+                    </p>
+                    <p class="d-flex">
+                        <span>Vận chuyển</span>
+                        <span>$0.00</span>
+                    </p>
+                    <hr>
+                    <p class="d-flex total-price">
+                        <span>Tổng tất cả</span>
+                        <span>@Model.Sum(item => item.ProductPrice * item.Quantity).ToString("C")</span>
+                    </p>
+                </div>
+                <p class="text-center"><a asp-controller="Checkout" asp-action="Index" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
+            </div>
+        </div>
+    </div>
+</section>

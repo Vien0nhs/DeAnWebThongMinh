@@ -1,0 +1,116 @@
+﻿@model IEnumerable<DeAnWebThongMinh.Models.Product>
+<section class="home-slider owl-carousel">
+
+	<div class="slider-item" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row slider-text justify-content-center align-items-center">
+
+				<div class="col-md-7 col-sm-12 text-center ftco-animate">
+					<h1 class="mb-3 mt-5 bread">Menu của chúng tôi</h1>
+					<p class="breadcrumbs"><span class="mr-2"><a asp-controller="Home" asp-action="Index">Home</a></span> <span>Menu</span></p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="ftco-intro">
+	<div class="container-wrap">
+		<div class="wrap d-md-flex align-items-xl-end justify-content-center">
+			<div class="info w-100">
+				<div class="row no-gutters justify-content-between">
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="icon"><span class="icon-phone"></span></div>
+						<div class="text">
+							<h3>Số điện thoại của chúng tôi</h3>
+							<p>Liên hệ ngay nếu có thức uống bạn thích.</p>
+						</div>
+					</div>
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="icon"><span class="icon-my_location"></span></div>
+						<div class="text">
+							<h3>Khoa CNTT K19</h3>
+							<p>Số 01 Tôn Thất Tùng, P. 8, Tp. Đà Lạt, tỉnh Lâm Đồng, Việt Nam</p>
+						</div>
+					</div>
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="icon"><span class="icon-clock-o"></span></div>
+						<div class="text">
+							<h3>Mở vào Thứ Hai - Thứ Sáu</h3>
+							<p>8:00AM - 9:00PM</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="ftco-section">
+	<div class="container">
+		<h3 class="mb-5 heading-pricing ftco-animate">Bạn có thể đặt món và xem chi tiết món tại đây với menu chính của Team!</h3>
+
+		@if (@Model != null){
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="mb-5 heading-pricing ftco-animate">Drinks</h3> <!-- Thay thế thành ProductType -->
+					@foreach (var item in Model)
+					{
+						@if (item.ProductType == "Drinks")
+						{
+							<div class="pricing-entry d-flex ftco-animate">
+								<div class="img" style="background-image: url(@item.ImageUrl" alt="@item.ProductName)">
+								</div>
+								<div class="desc pl-3">
+									<div class="d-flex text align-items-center">
+										<h3><span class="ok"><a asp-controller="Menu" asp-action="Detail" asp-route-id="@item.ProductId">@item.ProductName</a></span></h3> <!-- Thay thế thành ProductName -->
+										<style>
+											.ok:hover {
+												font-weight: bold;
+											}
+										</style>
+										<span class="price">$@item.ProductPrice</span> <!-- Thay thế thành ProductPrice -->
+									</div>
+									<div class="d-block">
+										<p>@item.Description</p> <!-- Thay thế thành Description -->
+									</div>
+								</div>
+							</div>
+						}
+
+					}
+				</div>
+
+				<div class="col-md-6">
+					<h3 class="mb-5 heading-pricing ftco-animate">Cakes</h3> <!-- Thay thế thành ProductType -->
+					@foreach (var item in Model)
+					{
+						@if (item.ProductType == "Cakes")
+						{
+							<div class="pricing-entry d-flex ftco-animate">
+								<div class="img" style="background-image: url(@item.ImageUrl" alt="@item.ProductName)">
+								</div>
+								<div class="desc pl-3">
+									<div class="d-flex text align-items-center">
+										<h3><span class="ok"><a asp-controller="Menu" asp-action="Detail" asp-route-id="@item.ProductId">@item.ProductName</a></span></h3> <!-- Thay thế thành ProductName -->
+										<style>
+											.ok:hover {
+												font-weight: bold;
+											}
+										</style>
+										<span class="price">$@item.ProductPrice</span> <!-- Thay thế thành ProductPrice -->
+									</div>
+									<div class="d-block">
+										<p>@item.Description</p> <!-- Thay thế thành Description -->
+									</div>
+								</div>
+							</div>
+						}
+					}
+				</div>
+			</div>
+		}
+	</div>
+</section>

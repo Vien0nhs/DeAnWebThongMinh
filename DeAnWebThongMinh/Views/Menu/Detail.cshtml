@@ -1,0 +1,70 @@
+﻿@model DeAnWebThongMinh.Models.Product
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<section class="ftco-section">
+    <div class="text-center">
+        <h1>Chi tiết món</h1>
+        <br />
+        <br />
+        <br />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5 ftco-animate">
+                <a href="@Model.ImageUrl" class="image-popup"><img src="@Model.ImageUrl" class="img-fluid" alt="@Model.ImageUrl" style="width: 400px; height: 400px; border-radius:20%;"></a>
+            </div>
+            <div class="col-lg-6 product-details pl-md-5 ftco-animate">
+                <h3>@Model.ProductName</h3>
+                <p class="price"><span>$@Model.ProductPrice</span></p>
+                <p>@Model.Description</p>
+                <form asp-controller="Menu" asp-action="AddToCart" method="post">
+
+                <div class="row mt-4">
+                    <div class="w-100"></div>
+                    <div class="input-group col-md-6 d-flex mb-3">
+                        <span class="input-group-btn mr-2">
+                        <button type="button" class="quantity-left-minus btn" data-type="minus" data-field="">
+                            <i class="icon-minus"></i>
+                        </button>
+                        </span>
+                        <input type="text" id="quantity" name="quantity" class="form-control input-number" value="@Model.Quantity" min="1" max="100">
+                        <span class="input-group-btn ml-2">
+                            <button type="button" class="quantity-right-plus btn" data-type="plus" data-field="">
+                                <i class="icon-plus"></i>
+                            </button>
+                        </span>
+
+                    </div>
+                </div>
+                    <input type="hidden" name="id" value="@Model.ProductId" />
+                    <input type="hidden" id="hiddenQuantity" name="quantity" value="@Model.Quantity" />
+                    <button type="submit" class="btn btn-primary py-3 px-5">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    // JavaScript để tăng hoặc giảm giá trị của biến quantity khi người dùng nhấp vào nút cộng hoặc trừ
+    document.addEventListener("DOMContentLoaded", function () {
+        var quantityInput = document.getElementById('quantity');
+        var minusButton = document.querySelector('.quantity-left-minus');
+        var plusButton = document.querySelector('.quantity-right-plus');
+
+        minusButton.addEventListener("click", function () {
+            var currentValue = parseInt(quantityInput.value);
+            if (currentValue > 1) {
+                quantityInput.value = currentValue - 1;
+            }
+        });
+
+        plusButton.addEventListener("click", function () {
+            var currentValue = parseInt(quantityInput.value);
+            quantityInput.value = currentValue + 1;
+        });
+    });
+</script>
